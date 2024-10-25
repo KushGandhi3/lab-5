@@ -20,9 +20,9 @@ public class Main {
                                             .addSignupUseCase()
                                             .addLoginUseCase()
                                             .addChangePasswordUseCase()
+                                            // Added the Logout UseCase
                                             .addLogoutUseCase()
                                             .build();
-
         application.pack();
         application.setVisible(true);
     }
